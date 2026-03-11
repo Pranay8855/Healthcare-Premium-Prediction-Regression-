@@ -87,31 +87,6 @@ This interface makes the system accessible to users without requiring programmin
 #API Integration
 The trained machine learning models are connected to the Streamlit application through an API-like interface, enabling real-time predictions based on user input.
 
-#Project Structure
-
-```
-Healthcare_Premium-Prediction
-│
-├── artifacts
-│   ├── model.joblib
-│   ├── encoder.joblib
-│
-├── data
-│   └── health_premium_dataset.csv
-│
-├── notebooks
-│   └── model_training.ipynb
-│
-├── src
-│   ├── data_preprocessing.py
-│   ├── model_training.py
-│   └── prediction_pipeline.py
-│
-├── app.py
-├── requirements.txt
-└── README.md
-```
-
 #Technologies Used
 
 - Python
